@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical|center_horizontal"
+	android:background="@drawable/gx_background"
+	android:paddingRight="5dp"
+	android:orientation="horizontal"
+	android:baselineAligned="true"
+	android:paddingBottom="10dp">
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content"
+		android:background="@drawable/logo"
+		android:padding="1dp"
+		android:paddingTop="40dp"
+		android:alpha="1.0"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Goxome Music"
+		android:id="@+id/text"
+		android:textSize="35sp"
+		android:background="#41FFFFFF"
+		android:layout_marginBottom="66dp"
+		android:layout_marginTop="50dp"
+		android:textColor="#FFFFEFEF"
+		android:layout_margin="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This is an Sample"
+		android:background="#5DFFFFFF"
+		android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>
+
